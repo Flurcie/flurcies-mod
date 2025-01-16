@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "fevo:block/fevosmooth_basalt",
+    "side": "fevo:block/fevosmooth_basalt",
+    "top": "fevo:block/fevosmooth_basalt"
+  }
+}

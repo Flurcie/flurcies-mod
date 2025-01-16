@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "fevo:basalt_bricks",
+  "result": {
+    "count": 1,
+    "id": "fevo:basalt_brick_slab"
+  }
+}

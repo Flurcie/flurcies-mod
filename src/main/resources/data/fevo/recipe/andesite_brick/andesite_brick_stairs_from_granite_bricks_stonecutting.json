@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "fevo:andesite_bricks",
+  "result": {
+    "count": 1,
+    "id": "fevo:andesite_brick_stairs"
+  }
+}

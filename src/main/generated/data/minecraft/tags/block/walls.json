@@ -1,0 +1,16 @@
+{
+  "values": [
+    "fevo:granite_brick_wall",
+    "fevo:diorite_brick_wall",
+    "fevo:andesite_brick_wall",
+    "fevo:basalt_brick_wall",
+    "fevo:sandstone_brick_wall",
+    "fevo:red_sandstone_brick_wall",
+    "fevo:smooth_sandstone_wall",
+    "fevo:smooth_red_sandstone_wall",
+    "fevo:smooth_basalt_wall",
+    "fevo:quartz_wall",
+    "fevo:smooth_quartz_wall",
+    "fevo:quartz_brick_wall"
+  ]
+}

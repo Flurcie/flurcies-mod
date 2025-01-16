@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "fevo:sandstone_bricks",
+  "result": {
+    "count": 1,
+    "id": "fevo:sandstone_brick_slab"
+  }
+}

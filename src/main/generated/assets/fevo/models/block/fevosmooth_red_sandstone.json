@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "fevo:block/fevosmooth_red_sandstone"
+  }
+}

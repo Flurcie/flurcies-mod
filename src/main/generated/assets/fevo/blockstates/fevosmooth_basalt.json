@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fevo:block/fevosmooth_basalt"
+    }
+  }
+}

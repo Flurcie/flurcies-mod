@@ -1,0 +1,44 @@
+{
+  "block.fevo.granite_bricks": "Granite Bricks",
+  "block.fevo.granite_brick_stairs": "Granite Brick Stairs",
+  "block.fevo.granite_brick_slab": "Granite Brick Slab",
+  "block.fevo.granite_brick_wall": "Granite Brick Wall",
+
+  "block.fevo.diorite_bricks": "Diorite Bricks",
+  "block.fevo.diorite_brick_stairs": "Diorite Brick Stairs",
+  "block.fevo.diorite_brick_slab": "Diorite Brick Slab",
+  "block.fevo.diorite_brick_wall": "Diorite Brick Wall",
+
+  "block.fevo.andesite_bricks": "Andesite Bricks",
+  "block.fevo.andesite_brick_stairs": "Andesite Brick Stairs",
+  "block.fevo.andesite_brick_slab": "Andesite Brick Slab",
+  "block.fevo.andesite_brick_wall": "Andesite Brick Wall",
+
+  "block.fevo.basalt_bricks": "Basalt Bricks",
+  "block.fevo.basalt_brick_stairs": "Basalt Brick Stairs",
+  "block.fevo.basalt_brick_slab": "Basalt Brick Slab",
+  "block.fevo.basalt_brick_wall": "Basalt Brick Wall",
+
+  "block.fevo.sandstone_bricks": "Sandstone Bricks",
+  "block.fevo.sandstone_brick_stairs": "Sandstone Brick Stairs",
+  "block.fevo.sandstone_brick_slab": "Sandstone Brick Slab",
+  "block.fevo.sandstone_brick_wall": "Sandstone Brick Wall",
+
+  "block.fevo.red_sandstone_bricks": "Red Sandstone Bricks",
+  "block.fevo.red_sandstone_brick_stairs": "Red Sandstone Brick Stairs",
+  "block.fevo.red_sandstone_brick_slab": "Red Sandstone Brick Slab",
+  "block.fevo.red_sandstone_brick_wall": "Red Sandstone Brick Wall",
+
+  "block.fevo.smooth_sandstone_wall": "Smooth Sandstone Wall",
+  "block.fevo.smooth_red_sandstone_wall": "Smooth Red Sandstone Wall",
+  "block.fevo.smooth_basalt_slabs":"Smooth Basalt Slabs" ,
+  "block.fevo.smooth_basalt_stairs": "Smooth Basalt Stairs",
+  "block.fevo.smooth_basalt_wall": "Smooth Basalt Wall",
+  "block.fevo.quartz_wall": "Quartz Wall",
+  "block.fevo.smooth_quartz_wall": "Smooth Quartz Wall",
+  "block.fevo.quartz_brick_slab":"Quartz Brick Slabs",
+  "block.fevo.quartz_brick_stairs": "Quartz Brick Stairs",
+  "block.fevo.quartz_brick_wall": "Quartz Brick Wall",
+
+  "item.fevo.sourberry": "Sourberries"
+}

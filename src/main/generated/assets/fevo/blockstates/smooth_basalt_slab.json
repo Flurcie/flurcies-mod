@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fevo:block/smooth_basalt_slab"
+    },
+    "type=double": {
+      "model": "fevo:block/fevosmooth_basalt"
+    },
+    "type=top": {
+      "model": "fevo:block/smooth_basalt_slab_top"
+    }
+  }
+}
