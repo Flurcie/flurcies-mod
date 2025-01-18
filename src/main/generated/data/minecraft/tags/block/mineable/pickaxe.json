@@ -33,6 +33,9 @@
     "fevo:smooth_red_sandstone_wall",
     "fevo:smooth_basalt_slab",
     "fevo:smooth_basalt_stairs",
-    "fevo:smooth_basalt_wall"
+    "fevo:smooth_basalt_wall",
+    "fevo:polished_granite_wall",
+    "fevo:polished_diorite_wall",
+    "fevo:polished_andesite_wall"
   ]
 }

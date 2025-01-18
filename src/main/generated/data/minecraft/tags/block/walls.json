@@ -11,6 +11,9 @@
     "fevo:smooth_basalt_wall",
     "fevo:quartz_wall",
     "fevo:smooth_quartz_wall",
-    "fevo:quartz_brick_wall"
+    "fevo:quartz_brick_wall",
+    "fevo:polished_granite_wall",
+    "fevo:polished_diorite_wall",
+    "fevo:polished_andesite_wall"
   ]
 }

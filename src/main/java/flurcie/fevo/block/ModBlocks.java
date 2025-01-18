@@ -76,7 +76,7 @@ public class ModBlocks {
                     .requiresTool()
                     .strength(1.5F, 6.0F)));
     public static final Block ANDESITE_BRICK_STAIRS = registerBlock("andesite_brick_stairs",
-            new StairsBlock(ModBlocks.GRANITE_BRICKS.getDefaultState(),
+            new StairsBlock(ModBlocks.ANDESITE_BRICKS.getDefaultState(),
                     AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Fevo.MOD_ID, "andesite_brick_stairs")))
                             .mapColor(MapColor.STONE_GRAY)
                             .instrument(NoteBlockInstrument.BASEDRUM)
@@ -281,6 +281,42 @@ public class ModBlocks {
                     .requiresTool()
                     .strength(0.8F)));
 
+    public static final Block FEVOPOLISHED_GRANITE = registerBlock("fevopolished_granite",
+            new Block(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Fevo.MOD_ID, "fevopolished_granite")))
+                    .mapColor(MapColor.OFF_WHITE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(0.8F)));
+    public static final Block FEVOPOLISHED_DIORITE = registerBlock("fevopolished_diorite",
+            new Block(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Fevo.MOD_ID, "fevopolished_diorite")))
+                    .mapColor(MapColor.OFF_WHITE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(0.8F)));
+    public static final Block FEVOPOLISHED_ANDESITE = registerBlock("fevopolished_andesite",
+            new Block(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Fevo.MOD_ID, "fevopolished_andesite")))
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(1.5F, 6.0F)));
+    public static final Block POLISHED_GRANITE_WALL = registerBlock("polished_granite_wall",
+            new WallBlock(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Fevo.MOD_ID, "polished_granite_wall")))
+                    .mapColor(MapColor.DIRT_BROWN)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(1.5F, 6.0F)));
+    public static final Block POLISHED_DIORITE_WALL = registerBlock("polished_diorite_wall",
+            new WallBlock(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Fevo.MOD_ID, "polished_diorite_wall")))
+                    .mapColor(MapColor.OFF_WHITE)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(1.5F, 6.0F)));
+    public static final Block POLISHED_ANDESITE_WALL = registerBlock("polished_andesite_wall",
+            new WallBlock(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Fevo.MOD_ID, "polished_andesite_wall")))
+                    .mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool()
+                    .strength(1.5F, 6.0F)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -338,6 +374,10 @@ public class ModBlocks {
             fabricItemGroupEntries.add(QUARTZ_BRICK_SLAB);
             fabricItemGroupEntries.add(QUARTZ_BRICK_STAIRS);
             fabricItemGroupEntries.add(QUARTZ_BRICK_WALL);
+
+            fabricItemGroupEntries.add(POLISHED_GRANITE_WALL);
+            fabricItemGroupEntries.add(POLISHED_DIORITE_WALL);
+            fabricItemGroupEntries.add(POLISHED_ANDESITE_WALL);
         });
     }
 }

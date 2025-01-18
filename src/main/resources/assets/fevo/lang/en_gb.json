@@ -40,5 +40,9 @@
   "block.fevo.quartz_brick_stairs": "Quartz Brick Stairs",
   "block.fevo.quartz_brick_wall": "Quartz Brick Wall",
 
+  "block.fevo.polished_granite_wall": "Polished Granite Wall",
+  "block.fevo.polished_diorite_wall": "Polished Diorite Wall",
+  "block.fevo.polished_andesite_wall": "Polished Andesite Wall",
+
   "item.fevo.sourberry": "Sourberries"
 }

@@ -57,6 +57,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SMOOTH_BASALT_STAIRS)
                 .add(ModBlocks.SMOOTH_BASALT_WALL)
 
+                .add(ModBlocks.POLISHED_GRANITE_WALL)
+                .add(ModBlocks.POLISHED_DIORITE_WALL)
+                .add(ModBlocks.POLISHED_ANDESITE_WALL)
+
         ;
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.GRANITE_BRICK_WALL)
@@ -71,7 +75,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.QUARTZ_WALL)
                 .add(ModBlocks.SMOOTH_QUARTZ_WALL)
                 .add(ModBlocks.QUARTZ_BRICK_WALL)
-
+                .add(ModBlocks.POLISHED_GRANITE_WALL)
+                .add(ModBlocks.POLISHED_DIORITE_WALL)
+                .add(ModBlocks.POLISHED_ANDESITE_WALL)
 
         ;
     }
