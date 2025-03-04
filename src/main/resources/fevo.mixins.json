@@ -3,6 +3,10 @@
 	"package": "flurcie.fevo.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
+		"SplashTextMixin",
+		//"FoodEatTimeMixin",
+		//"FoodNutritionMixin",
+		//"FoodStackChangeMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
