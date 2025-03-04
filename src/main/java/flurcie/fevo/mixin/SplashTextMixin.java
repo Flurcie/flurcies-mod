@@ -7,6 +7,10 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
 
+import java.util.Calendar;
+import java.util.Date;
+
+//Replaces the call for the vanilla list of splash texts with our custom one.
 
 @Mixin (SplashTextResourceSupplier.class)
 public abstract class SplashTextMixin {
@@ -20,7 +24,17 @@ public abstract class SplashTextMixin {
             )
     )
     private Identifier redirectResourceId() {
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(new Date());
+
+        // Checks if it's my birthday
+        if (calendar.get(Calendar.MONTH) == Calendar.JULY && calendar.get(Calendar.DAY_OF_MONTH) == 9) {
+            System.out.println("Happy Birthday to Mum!");
+            return Identifier.of("fevo:splashtext/birthdaysplash.txt");
+        }
+
+        // If it's not my birthday :(
         return Identifier.of("fevo:splashtext/splashes.txt");
     }
 }
-//Thank you to Grok, the Ogre AI.
+//Thank you to Grok, the Ogre AI, who made my twenty-hour time commitment useless, helping me do this mixin in five minutes.

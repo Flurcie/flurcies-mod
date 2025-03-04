@@ -402,7 +402,7 @@ And my pickaxe!
 Envision! Create! Share!
 Fabulous graphics!
 Also try Minecraft Dungeons!
-Vanilla!
+Modded!
 May contain traces of citrus!
 Zoglin!?
 Black lives matter!
@@ -461,7 +461,6 @@ follow 4 follow!
 Transcendental!
 One day, somewhere in the future, your work was quoted!
 To the moon!
-The cake is a lie!
 Much block, such fun!
 Squishy!
 Smooth!
@@ -473,6 +472,7 @@ This technique has been passed down for generations!
 Just a humble housewife!
 Another two week phase of fun!
 Fun things are fun!
+476!
 Hello team!
 Chicken, or beef?
 Oha-lucky!
@@ -486,3 +486,4 @@ Cromulent!
 Embiggened!
 Now with Zen!
 Free Shipping!
+Stay Hydrated!
