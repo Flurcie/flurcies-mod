@@ -67,9 +67,12 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool polishedGranitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.FEVOPOLISHED_GRANITE);
         BlockStateModelGenerator.BlockTexturePool polishedDioritePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.FEVOPOLISHED_DIORITE);
         BlockStateModelGenerator.BlockTexturePool polishedAndesitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.FEVOPOLISHED_ANDESITE);
+        BlockStateModelGenerator.BlockTexturePool stonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.FEVOSTONE);
         polishedGranitePool.wall(ModBlocks.POLISHED_GRANITE_WALL);
         polishedDioritePool.wall(ModBlocks.POLISHED_DIORITE_WALL);
         polishedAndesitePool.wall(ModBlocks.POLISHED_ANDESITE_WALL);
+        stonePool.wall(ModBlocks.STONE_WALL);
+
     }
 
     @Override

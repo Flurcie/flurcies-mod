@@ -36,6 +36,7 @@
     "fevo:smooth_basalt_wall",
     "fevo:polished_granite_wall",
     "fevo:polished_diorite_wall",
-    "fevo:polished_andesite_wall"
+    "fevo:polished_andesite_wall",
+    "fevo:stone_wall"
   ]
 }

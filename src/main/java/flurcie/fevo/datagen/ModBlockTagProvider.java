@@ -60,6 +60,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.POLISHED_GRANITE_WALL)
                 .add(ModBlocks.POLISHED_DIORITE_WALL)
                 .add(ModBlocks.POLISHED_ANDESITE_WALL)
+                .add(ModBlocks.STONE_WALL)
 
         ;
         getOrCreateTagBuilder(BlockTags.WALLS)
@@ -78,6 +79,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.POLISHED_GRANITE_WALL)
                 .add(ModBlocks.POLISHED_DIORITE_WALL)
                 .add(ModBlocks.POLISHED_ANDESITE_WALL)
+                .add(ModBlocks.STONE_WALL)
 
         ;
     }

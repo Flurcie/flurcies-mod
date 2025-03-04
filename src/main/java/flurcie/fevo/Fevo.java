@@ -1,6 +1,7 @@
 package flurcie.fevo;
 
 import flurcie.fevo.block.ModBlocks;
+import flurcie.fevo.entity.ModEntities;
 import flurcie.fevo.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -16,5 +17,6 @@ public class Fevo implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModEntities.registerModEntities();
 	}
 }
