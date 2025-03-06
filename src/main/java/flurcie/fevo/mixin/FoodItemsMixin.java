@@ -56,7 +56,7 @@ public abstract class FoodItemsMixin {
       return Items.register(id, new Item.Settings()
               .food(CustomFoodComponents.MUSHROOM_STEW, CustomConsumableComponents.MUSHROOM_STEW)
               .useRemainder(Items.BOWL)
-              .maxCount(16));
+              .maxCount(8));
     }
     if ("cod".equals(id)) {
       return Items.register(id, new Item.Settings()
@@ -71,12 +71,12 @@ public abstract class FoodItemsMixin {
     if ("tropical_fish".equals(id)) {
       return Items.register(id, new Item.Settings()
               .food(CustomFoodComponents.TROPICAL_FISH, CustomConsumableComponents.TROPICAL_FISH)
-              .maxCount(16));
+              .maxCount(64));
     }
     if ("pufferfish".equals(id)) {
       return Items.register(id, new Item.Settings()
               .food(CustomFoodComponents.PUFFERFISH, CustomConsumableComponents.PUFFERFISH)
-              .maxCount(16));
+              .maxCount(64));
     }
     if ("cooked_cod".equals(id)) {
       return Items.register(id, new Item.Settings()
@@ -101,7 +101,7 @@ public abstract class FoodItemsMixin {
     if ("dried_kelp".equals(id)) {
       return Items.register(id, new Item.Settings()
               .food(CustomFoodComponents.DRIED_KELP, CustomConsumableComponents.DRIED_KELP)
-              .maxCount(16));
+              .maxCount(64));
     }
     if ("beef".equals(id)) {
       return Items.register(id, new Item.Settings()
@@ -131,7 +131,7 @@ public abstract class FoodItemsMixin {
     if ("spider_eye".equals(id)) {
       return Items.register(id, new Item.Settings()
               .food(CustomFoodComponents.SPIDER_EYE, CustomConsumableComponents.SPIDER_EYE)
-              .maxCount(16));
+              .maxCount(64));
     }
     if ("carrot".equals(id)) {
       return Items.register(id, new Item.Settings()
@@ -151,7 +151,7 @@ public abstract class FoodItemsMixin {
     if ("poisonous_potato".equals(id)) {
       return Items.register(id, new Item.Settings()
               .food(CustomFoodComponents.POISONOUS_POTATO, CustomConsumableComponents.POISONOUS_POTATO)
-              .maxCount(16));
+              .maxCount(64));
     }
     if ("golden_carrot".equals(id)) {
       return Items.register(id, new Item.Settings()
@@ -177,7 +177,7 @@ public abstract class FoodItemsMixin {
       return Items.register(id, new Item.Settings()
               .food(CustomFoodComponents.RABBIT_STEW, CustomConsumableComponents.RABBIT_STEW)
               .useRemainder(Items.BOWL)
-              .maxCount(16));
+              .maxCount(8));
     }
     if ("mutton".equals(id)) {
       return Items.register(id, new Item.Settings()
@@ -204,7 +204,7 @@ public abstract class FoodItemsMixin {
       return Items.register(id, new Item.Settings()
               .food(CustomFoodComponents.BEETROOT_SOUP, CustomConsumableComponents.BEETROOT_SOUP)
               .useRemainder(Items.BOWL)
-              .maxCount(16));
+              .maxCount(8));
     }
     if ("sweet_berries".equals(id)) {
       return Items.register(id, new Item.Settings()
@@ -221,7 +221,7 @@ public abstract class FoodItemsMixin {
               .food(CustomFoodComponents.SUSPICIOUS_STEW, CustomConsumableComponents.SUSPICIOUS_STEW)
               .component(DataComponentTypes.SUSPICIOUS_STEW_EFFECTS, SuspiciousStewEffectsComponent.DEFAULT)
               .useRemainder(Items.BOWL)
-              .maxCount(16));
+              .maxCount(8));
     }
     if ("milk_bucket".equals(id)) {
       return Items.register(id, new Item.Settings()
