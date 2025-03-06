@@ -3,8 +3,12 @@
 	"package": "flurcie.fevo.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"SplashTextMixin"
-
+		"SplashTextMixin",
+		//"FoodComponentsMixin",
+		//"FoodConsumableComponentsMixin,"
+		"ExtraStackingMixin",
+		"FireChargeMixin",
+		"FoodItemsMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
