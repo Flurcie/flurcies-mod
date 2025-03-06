@@ -17,20 +17,17 @@ public abstract class ExtraStackingMixin {
                     target = "Lnet/minecraft/item/Items;register(Ljava/lang/String;Ljava/util/function/Function;Lnet/minecraft/item/Item$Settings;)Lnet/minecraft/item/Item;",
                     remap = false))
     private static Item modifyExtraItems(String id, java.util.function.Function<Item.Settings, Item> factory, Item.Settings settings) {
-        if ("fire_charge".equals(id)) {
-            return Items.register(id, factory, settings.maxCount(16));
-        }
         if ("wind_charge".equals(id)) {
             return Items.register(id, factory, settings.maxCount(16));
         }
         if ("potion".equals(id)) {
-            return Items.register(id, factory, settings.maxCount(16));
+            return Items.register(id, factory, settings.maxCount(4));
         }
         if ("splash_potion".equals(id)) {
-            return Items.register(id, factory, settings.maxCount(16));
+            return Items.register(id, factory, settings.maxCount(4));
         }
         if ("lingering_potion".equals(id)) {
-            return Items.register(id, factory, settings.maxCount(16));
+            return Items.register(id, factory, settings.maxCount(4));
         }
         return Items.register(id, factory, settings);
     }

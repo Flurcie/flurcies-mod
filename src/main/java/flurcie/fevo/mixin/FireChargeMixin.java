@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.ModifyArg;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-
+//The fire charge is a total and absolute mess, so it needs its own mixin to be changed.
 @Mixin(FireChargeItem.class)
 public class FireChargeMixin {
 

@@ -233,13 +233,13 @@ public abstract class FoodItemsMixin {
       return Items.register(id, new Item.Settings()
               .food(FoodComponents.SWEET_BERRIES)
               // .food(FoodComponents.SWEET_BERRIES, ConsumableComponents.SWEET_BERRIES)
-              .maxCount(16));
+              .maxCount(64));
     }
     if ("glow_berries".equals(id)) {
       return Items.register(id, new Item.Settings()
               .food(FoodComponents.GLOW_BERRIES)
               // .food(FoodComponents.GLOW_BERRIES, ConsumableComponents.GLOW_BERRIES)
-              .maxCount(16));
+              .maxCount(64));
     }
     if ("suspicious_stew".equals(id)) {
       return Items.register(id, new Item.Settings()
@@ -254,21 +254,21 @@ public abstract class FoodItemsMixin {
               .component(DataComponentTypes.CONSUMABLE, ConsumableComponents.MILK_BUCKET)
               .recipeRemainder(Items.BUCKET)
               .useRemainder(Items.BUCKET)
-              .maxCount(16));
+              .maxCount(1));
     }
     if ("ominous_bottle".equals(id)) {
       return Items.register(id, new Item.Settings()
               .rarity(Rarity.UNCOMMON)
               .component(DataComponentTypes.CONSUMABLE, ConsumableComponents.OMINOUS_BOTTLE)
               .component(DataComponentTypes.OMINOUS_BOTTLE_AMPLIFIER, new OminousBottleAmplifierComponent(0))
-              .maxCount(16));
+              .maxCount(4));
     }
     if ("honey_bottle".equals(id)) {
       return Items.register(id, new Item.Settings()
               .food(FoodComponents.HONEY_BOTTLE, ConsumableComponents.HONEY_BOTTLE)
               .recipeRemainder(Items.GLASS_BOTTLE)
               .useRemainder(Items.GLASS_BOTTLE)
-              .maxCount(16));
+              .maxCount(4));
     }
     return Items.register(id, settings);
   }
