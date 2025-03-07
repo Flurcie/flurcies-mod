@@ -11,21 +11,19 @@ public abstract class ExtraStackingMixin {
 
     @Redirect(method = "<clinit>",
             at = @At(value = "INVOKE",
-                    target = "Lnet/minecraft/item/Items;register(Ljava/lang/String;Ljava/util/function/Function;Lnet/minecraft/item/Item$Settings;)Lnet/minecraft/item/Item;",
-                    remap = false))
+                    target = "Lnet/minecraft/item/Items;register(Ljava/lang/String;Ljava/util/function/Function;Lnet/minecraft/item/Item$Settings;)Lnet/minecraft/item/Item;"))
     private static Item modifyExtraItems(String id, java.util.function.Function<Item.Settings, Item> factory, Item.Settings settings) {
-        if ("wind_charge".equals(id)) {
+        if ("minecraft:wind_charge".equals(id)) { // Use full registry ID
             return Items.register(id, factory, settings.maxCount(16));
         }
-        if ("potion".equals(id)) {
+        if ("minecraft:potion".equals(id)) {
             return Items.register(id, factory, settings.maxCount(4));
         }
-        if ("splash_potion".equals(id)) {
+        if ("minecraft:splash_potion".equals(id)) {
             return Items.register(id, factory, settings.maxCount(4));
         }
-        if ("lingering_potion".equals(id)) {
+        if ("minecraft:lingering_potion".equals(id)) {
             return Items.register(id, factory, settings.maxCount(4));
         }
-        return Items.register(id, factory, settings);
-    }
-}
+        return Items.register(id, factory, settings); // Default case
+    }}
