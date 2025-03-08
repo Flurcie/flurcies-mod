@@ -5,8 +5,7 @@
 	"mixins": [
 		"SplashTextMixin",
 		"ExtraStackingMixin",
-		"FireChargeMixin",
-		"FoodItemsMixin"
+		"FireChargeMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

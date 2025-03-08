@@ -7,6 +7,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyArg;
 
 //The fire charge is a total and absolute mess, so it needs its own mixin to be changed.
+// Has to go in combat overhaul if trend of subdivision continues in the future.
 @Mixin(FireChargeItem.class)
 public class FireChargeMixin {
 

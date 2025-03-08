@@ -9,6 +9,8 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 @Mixin(Items.class)
 public abstract class ExtraStackingMixin {
 
+    //has to go in combat overhaul if trends to divide continues.
+
     @Redirect(
             method = "<clinit>",
             at = @At(
@@ -18,9 +20,6 @@ public abstract class ExtraStackingMixin {
     )
     private static Item modifyExtraItems(String id, java.util.function.Function<Item.Settings, Item> factory, Item.Settings settings) {
 
-        if ("wind_charge".equals(id)) {
-            return Items.register(id, factory, settings.maxCount(16));
-        }
         if ("potion".equals(id)) {
             return Items.register(id, factory, settings.maxCount(4));
         }
